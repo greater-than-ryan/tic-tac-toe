@@ -1,0 +1,40 @@
+.column {
+  width: 100px;
+  height: 100px;
+  margin: 0px;
+  border: 2px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
+
+.row {
+  width: 400px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  margin-bottom: 10px;
+}
+.marker {
+  width: 80px;
+  height: 80px;
+}
+
+#winner-display {
+  display: none;
+  background-color: red;
+  color: white;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#reset-button {
+  margin-top: 10px;
+}
